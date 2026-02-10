@@ -128,3 +128,12 @@ MIT License
 ## ⭐ Show your support
 
 Give a ⭐ if you like this project!
+
+---
+
+## 👨‍💻 About the Developer
+
+**Hitesh Parmar**
+B.Tech–M.Tech (CSE), NIT Patna
+GitHub: @Hitesh9298
+LinkedIn: linkedin.com/in/hitesh9298
