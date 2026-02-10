@@ -1,0 +1,55 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e1e1e;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.join-box, .chat-container {
+  background-color: #2c2c2c;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.join-box input,
+.chat-input input {
+  width: calc(100% - 80px);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.chat-input {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #0078d4;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005ea6;
+}
+
+.chat-box {
+  background-color: #1b1b1b;
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}

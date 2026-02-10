@@ -1,0 +1,47 @@
+{
+  "name": "encrypted-chat-frontend",
+  "version": "1.0.0",
+  "description": "End-to-End Encrypted Chat Frontend with AES-256",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.5.1",
+    "emoji-picker-react": "^4.15.0",
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.6.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^11.0.5",
+    "socket.io-client": "^4.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18"
+  }
+}
